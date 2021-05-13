@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+  </head>
+
+  <body>
+    <h1>Práctica 11: Ejercicios - PE103</h1>
+    Desarrolle el siguiente ejercicio en un proyecto alojado en un nuevo repositorio de GitHub.<br>
+
+    Cree un directorio llamado users y ahí un fichero llamado user.json que contendrá nombres de usuario y su contraseña asociada. Implemente un servidor Express que acceda a dicho fichero y esté pendiente de las peticiones que reciba desde cliente con el nombre del usuario, deberá devolver la contraseña asociada al usuario. Si el usuario no existe, debemos indicar que dicho nombre de usuario no existe.<br>
+    
+    Compilar con tsc.<br><br>
+    <n>Ejemplos de uso (importante puerto 3000):</n><br><br>
+    <a href="http://localhost:3000/users?user=Carlos">Comprobar la contraseña del usuario Carlos</a><br>
+    <a href="http://localhost:3000/users?user=Pedro">Comprobar la contraseña del usuario Pedro</a><br>
+    <a href="http://localhost:3000/users?user=Laura">Comprobar usuario incorrecto</a><br>
+    <a href="http://localhost:3000/users?password=1234">Comprobar error de petición</a><br>
+  </body>
+
+</html>
